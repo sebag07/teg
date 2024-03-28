@@ -6,7 +6,7 @@
 	<section id="ori-breadcrumbs" class="ori-breadcrumbs-section position-relative" data-background="<?php echo get_stylesheet_directory_uri().'/assets/img/bg/bread-bg.png'?>">
 		<div class="container">
 			<div class="ori-breadcrumb-content text-center ul-li">
-				<h1>News & Blog</h1>
+				<h1><?php echo get_the_title(); ?></h1>
 				<!-- <ul>
 					<li><a href="index.html">orixy</a></li>
 					<li>News & Blog</li>
@@ -45,7 +45,7 @@
 							</div> -->
 							<div class="ori-blog-widget">
 								<div class="recent-post-widget">
-									<h3 class="widget-title">Related Posts</h3>
+									<h3 class="widget-title">Noutăți relevante</h3>
                                     <!-- First Related post start -->
                                     <?php
                                         $firstRelatedPost = get_field('first_related_post');
@@ -97,7 +97,7 @@
 							</div>
 							<div class="ori-blog-widget">
 								<div class="service-widget ul-li-block categoriesWidget">
-									<h3 class="widget-title">Categories</h3>
+									<h3 class="widget-title">Categorii</h3>
                                     <ul>
                                     <?php
                                     /*
@@ -198,7 +198,7 @@
 										</div>
 										<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 										<?php the_content(); ?>
-										<a class="blog-more text-uppercase" href="<?php the_permalink(); ?>">CONTINUE READING  <i class="fal fa-arrow-right"></i></a>
+										<a class="blog-more text-uppercase" href="<?php the_permalink(); ?>">Continuă să citești <i class="fal fa-arrow-right"></i></a>
 									</div>
 								</div>
                                     <?php

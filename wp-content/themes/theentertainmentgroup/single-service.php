@@ -82,7 +82,7 @@
 						<div class="ori-service-details-sidebar-widget-area">
 						<div class="ori-blog-widget">
 								<div class="gallery-widget ul-li">
-									<h3 class="widget-title">Gallery</h3>
+									<h3 class="widget-title">Galerie</h3>
 									<ul class="zoom-gallery row">
 									<?php 
 									$newsGallery = get_field('gallery', $post->ID);

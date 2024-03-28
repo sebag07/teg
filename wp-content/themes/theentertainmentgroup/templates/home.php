@@ -25,7 +25,7 @@
                         <a class="video_box d-flex align-items-center justify-content-center text-uppercase" href="https://www.youtube.com/watch?v=ESwnlqzmzMk">PLAY</a>
                     </div>
                     <div class="ori-slider-img position-absolute">
-<!--                        <img src="assets/img/slider/slider-1.png" alt="">-->
+                        <img src="assets/img/slider/slider-1.png" alt="">
                     </div>
                 </div>
             </div>

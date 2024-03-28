@@ -62,7 +62,7 @@
 								</div>
 							</div> -->
 							<div class="ori-recent-portfolio-area">
-								<h3>Related News</h3>
+								<h3>Noutăți relevante</h3>
 								<div class="ori-recent-portfolio-item-area">
 									<div class="row">
 									<?php
@@ -98,7 +98,7 @@
 						<div class="ori-blog-sidebar">
 							<div class="ori-blog-widget">
 								<div class="recent-post-widget">
-									<h3 class="widget-title">Related Posts</h3>
+									<h3 class="widget-title">Postări relevante</h3>
 									<?php
 									    $relatedPosts = get_posts(array('numberposts' => 3, 'offset' => 0, 'post__not_in' => array( $post->ID ), 'post_status'=>'publish', 'order'=>'ASC' ));
 										foreach($relatedPosts as $post) :
@@ -120,7 +120,7 @@
 							</div>
 							<div class="ori-blog-widget">
 								<div class="gallery-widget ul-li">
-									<h3 class="widget-title">Gallery</h3>
+									<h3 class="widget-title">Galerie</h3>
 									<ul class="zoom-gallery row">
 									<?php 
 									$newsGallery = get_field('gallery', $post->ID);
