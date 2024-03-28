@@ -5,6 +5,57 @@ Description: A custom WordPress theme for TEG
 Version: 1.0
 */
 
+html, body {
+    /*font-family: "Quicksand", sans-serif !important;*/
+    /*font-optical-sizing: auto;*/
+    /*font-style: normal;*/
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body span {
+    font-family: "Poppins", sans-serif !important;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.ori-sponsor-section-1 {
+    padding-top: 0;
+}
+
+.ori-slider-content-1 {
+    padding: 235px 0px 240px;
+}
+
+/* Home */
+
+.ori-slider-text h2 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.ori-slider-text h1 span {
+    font-size: 40px;
+}
+
+@media screen and (max-width: 480px){
+    .ori-slider-text h1 span {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .ori-slider-text h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+
 /* Header */
 
 .ori-header-content .brand-logo img {

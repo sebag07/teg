@@ -19,8 +19,11 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/assets/css/global.css'?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/assets/css/style.css'?>">
 
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 
     <!-- Style -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/style.css' ?>">
@@ -63,56 +66,6 @@
                     }
                 }
                     ?>
-                        <!-- <li class="dropdown ori-megamenu">
-                            <a href="/">Acasă</a> -->
-                            <!-- <ul class="dropdown-menu clearfix">
-                                <li>
-                                    <div class="ori-megamenu-content">
-                                        <div class="ori-megamenu-item-wrap">
-                                            <div class="row justify-content-center">
-                                                <div class="col-md-3">
-                                                    <div class="ori-megamenu-item position-relative">
-                                                        <div class="ori-megamenu-item-btn position-relative">
-                                                            <img src="<?php echo get_template_directory_uri() . 'assets/img/gallery/dm1.jpg';?>" alt="">
-                                                            <div class="ori-menu-btn-grp text-center">
-                                                                <a target="_blank" href="index-1.html">Multi Page</a>
-                                                                <a target="_blank" href="index-1.1.html">One Page</a>
-                                                            </div>
-                                                        </div>
-                                                        <h3>Digital Studio</h3>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div class="ori-megamenu-item position-relative">
-                                                        <div class="ori-megamenu-item-btn position-relative">
-                                                            <img src="<?php echo get_template_directory_uri() . 'assets/img/gallery/dm2.jpg';?>" alt="">
-                                                            <div class="ori-menu-btn-grp text-center">
-                                                                <a target="_blank" href="index-2.html">Multi Page</a>
-                                                                <a target="_blank" href="index-2.1.html">One Page</a>
-                                                            </div>
-                                                        </div>
-                                                        <h3>App Landing</h3>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul> -->
-                        <!-- </li>
-                        <li><a href="/projects">Proiecte</a></li>
-                        <li class="dropdown">
-                            <a href="!#">Servicii</a>
-                            <ul class="dropdown-menu clearfix">
-                                <li><a href="/production">Producție</a></li>
-                                <li><a href="https://shop.teg.ghem.app" target="_blank">Rentals</a></li>
-                                <li><a href="/events">Evenimente</a></li>
-                                <li><a href="/venues">Venues</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="/careers">Jobs</a></li>
-                        <li><a href="/news">Noutăți</a></li>
-                        <li><a href="/contact">Contact</a></li> -->
                     </ul>
                 </nav>
             </div>
@@ -136,7 +89,7 @@
                         <i class="fal fa-times"></i>
                     </div>
                     <div class="m-brand-logo">
-                        <a  href="!#"><img src="assets/img/logo/logo1.png" alt=""></a>
+                        <a href="/"><img src="<?php echo get_template_directory_uri() . '/assets/img/logo-teg-color.png';?>" alt=""></a>
                     </div>
                     <nav class="mobile-main-navigation  clearfix ul-li">
                     <ul id="m-main-nav" class="nav navbar-nav clearfix">
@@ -157,22 +110,6 @@
                     }
                 }
                     ?>
-                            <!-- <li class="dropdown ori-megamenu">
-                                <a href="/">Acasă</a>
-                            </li>
-                            <li><a href="/#ori-achivement-history">Istorie TEG</a></li>
-                        <li class="dropdown">
-                            <a href="!#">Servicii</a>
-                            <ul class="dropdown-menu clearfix">
-                                <li><a href="/production">Producție</a></li>
-                                <li><a href="https://shop.teg.ghem.app" target="_blank">Rentals</a></li>
-                                <li><a href="/events">Evenimente</a></li>
-                                <li><a href="/venues">Venues</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="/careers">Careers</a></li>
-                        <li><a href="/news">News</a></li>
-                        <li><a href="/contact">Contact</a></li> -->
                         </ul>
                     </nav>
                 </div>
@@ -223,7 +160,7 @@
                 <div class="sidebar-info-contents headline pera-content">
                     <div class="content-inner">
                         <div class="logo">
-                            <a href="index-1.html"><img src="assets/img/logo/logo1.png" alt=""></a>
+                            <img src="<?php echo get_template_directory_uri() . '/assets/img/logo-teg-color.png';?>" alt="">
                         </div>
                         <div class="content-box">
                             <h5>Despre noi</h5>
@@ -231,17 +168,6 @@
                             <p class="text">Cu o echipă ce are experiența a peste 500 de evenimente reușite, The Entertainment Group a devenit un nume cunoscut pentru cei 200.000 de participanți care au trăit momente unice la diversele  producții realizate sub această umbrelă. Experiența vastă a echipei, ce se întinde pe mai mult de un deceniu, este evidentă în detaliile rafinate și în execuția fără cusur a fiecărui eveniment.</p>
                             <p class="text">Astfel, The Entertainment Group se impune ca un lider inovator în industria evenimentelor, un partener de încredere pentru organizatori și un creator de momente inegalabile pentru participanți, fiind o piatră de temelie a scenei de evenimente din Timișoara și dincolo de aceasta.</p>
                         </div>
-                        <!-- <div class="gallery-box ul-li">
-                            <h5>Gallery</h5>
-                            <ul class="zoom-gallery">
-                                <li><a href="assets/img/gallery/gl1.png" data-source="assets/img/gallery/gl1.png"><img src="assets/img/gallery/gl1.png" alt=""></a></li>
-                                <li><a href="assets/img/gallery/gl2.png" data-source="assets/img/gallery/gl2.png"><img src="assets/img/gallery/gl2.png" alt=""></a></li>
-                                <li><a href="assets/img/gallery/gl3.png" data-source="assets/img/gallery/gl3.png"><img src="assets/img/gallery/gl3.png" alt=""></a></li>
-                                <li><a href="assets/img/gallery/gl4.png" data-source="assets/img/gallery/gl4.png"><img src="assets/img/gallery/gl4.png" alt=""></a></li>
-                                <li><a href="assets/img/gallery/gl5.png" data-source="assets/img/gallery/gl4.png"><img src="assets/img/gallery/gl5.png" alt=""></a></li>
-                                <li><a href="assets/img/gallery/gl6.png" data-source="assets/img/gallery/gl4.png"><img src="assets/img/gallery/gl6.png" alt=""></a></li>
-                            </ul>
-                        </div> -->
                         <div class="content-box">
                             <h5>Social Media</h5>
                             <ul class="social-box">

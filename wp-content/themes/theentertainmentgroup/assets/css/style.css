@@ -7893,6 +7893,8 @@ select:visited {
 .ori-blog-feed-item .ori-blog-img {
   overflow: hidden;
   border-radius: 20px;
+}
+.ori-blog-feed-item .ori-blog-img img {
   margin-bottom: 35px;
 }
 .ori-blog-feed-item .ori-blog-img .about-play-btn {

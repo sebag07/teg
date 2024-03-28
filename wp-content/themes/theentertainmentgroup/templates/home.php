@@ -3,11 +3,85 @@
 
 <!-- Start of Slider section
 	============================================= -->
+<!--<section id="ori-slider-1" class="ori-slider-section-1 position-relative">-->
+<!--    <div class="ori-slider-content-wrapper-1 postion-relative">-->
+<!--        --><?php //echo do_shortcode('[rev_slider alias="ai-particle-cluster1"][/rev_slider]') ?>
+<!--    </div>-->
+<!--</section>-->
+<!-- Start of Slider section
+	============================================= -->
 <section id="ori-slider-1" class="ori-slider-section-1 position-relative">
     <div class="ori-slider-content-wrapper-1 postion-relative">
-        <?php echo do_shortcode('[rev_slider alias="ai-particle-cluster1"][/rev_slider]') ?>
+        <div class="ori-slider-wrap-1">
+            <div  class="ori-slider-content-1 position-relative">
+                <div class="ori-slider-text text-center text-uppercase">
+                    <h1>The Entertainment Group
+                        <br>
+                        <span>
+                            Beyond Entertainment, An Experience
+                        </span>
+                    </h1>
+                    <div class="slider-play-btn">
+                        <a class="video_box d-flex align-items-center justify-content-center text-uppercase" href="https://www.youtube.com/watch?v=ESwnlqzmzMk">PLAY</a>
+                    </div>
+                    <div class="ori-slider-img position-absolute">
+<!--                        <img src="assets/img/slider/slider-1.png" alt="">-->
+                    </div>
+                </div>
+            </div>
+            <div class="ori-slider-content-1 position-relative">
+                <div class="ori-slider-text text-center  text-uppercase">
+                    <h1>The Entertainment Group
+                        <br>
+                        <span>
+                            Beyond Entertainment, An Experience
+                        </span>
+                    </h1>
+                    <div class="slider-play-btn">
+                        <a class="video_box d-flex align-items-center justify-content-center text-uppercase" href="https://www.youtube.com/watch?v=ESwnlqzmzMk">PLAY</a>
+                    </div>
+                    <div class="ori-slider-img position-absolute">
+<!--                        <img src="assets/img/slider/slider-1.png" alt="">-->
+                    </div>
+                </div>
+            </div>
+            <div class="ori-slider-content-1 position-relative">
+                <div class="ori-slider-text text-center  text-uppercase">
+                    <h1>The Entertainment Group
+                        <br>
+                        <span>
+                            Beyond Entertainment, An Experience
+                        </span>
+                    </h1>
+                    <div class="slider-play-btn">
+                        <a class="video_box d-flex align-items-center justify-content-center text-uppercase" href="https://www.youtube.com/watch?v=ESwnlqzmzMk">PLAY</a>
+                    </div>
+                    <div class="ori-slider-img position-absolute">
+<!--                        <img src="assets/img/slider/slider-1.png" alt="">-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line_animation">
+            <div class="line_area"></div>
+            <div class="line_area"></div>
+            <div class="line_area"></div>
+            <div class="line_area"></div>
+            <div class="line_area"></div>
+            <div class="line_area"></div>
+            <div class="line_area"></div>
+            <div class="line_area"></div>
+        </div>
     </div>
+<!--    <div  class="ori-slider-scroll position-absolute text-uppercase">-->
+<!--        <span>SCrool </span>-->
+<!--        <div class="scroll-mouse">-->
+<!--            <i class="fal fa-mouse"></i>-->
+<!--        </div>-->
+<!--    </div>-->
 </section>
+<!-- End of Slider section
+	============================================= -->
 <!-- End of Slider section
 	============================================= -->
 
