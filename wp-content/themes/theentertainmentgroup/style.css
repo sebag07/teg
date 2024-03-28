@@ -1,0 +1,257 @@
+/*
+Theme Name: The Entertainment Group
+Author: Sebastian Gherhes
+Description: A custom WordPress theme for TEG
+Version: 1.0
+*/
+
+/* Header */
+
+.ori-header-content .brand-logo img {
+    max-width: 150px;
+    width: 100%;
+    heigth: auto;
+}
+
+/* Footer */
+
+.ori-footer-widget .logo-widget img {
+    max-width: 220px;
+}
+
+.ori-service-section-1 {
+    padding-top: 125px;
+}
+
+.ori-service-section-1 .ori-service-content-1 .ori-service-why-choose img {
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.ori-achivement-history-section {
+    padding-top: 120px;
+    padding-bottom: 0;
+}
+
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+  }
+
+.ori-blog-img img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.ori-portfolio-item .portfolio-img img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.zoom-gallery li a img {
+    height: 96px;
+    object-fit: cover;
+    width: 100%;
+}
+
+@media (max-width:991px) {
+    .zoom-gallery li a img {
+        object-fit: cover;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+.ori-blog-widget .gallery-widget li {
+    width: 50%;
+}
+}
+
+.ori-search-btn {
+    display: none !important;
+}
+
+@media screen and (max-width: 991px) {
+.ori-header-section {
+    padding: 45px 15px !important;
+}
+.ori-header-section .brand-logo {
+    text-align: center;
+}
+}
+
+.mobile_menu_button {
+    left: 15px !important;
+    top: -20px !important;
+    z-index: 5;
+    color: #fff;
+    font-size: 32px !important;
+    cursor: pointer;
+    line-height: 38px;
+    position: absolute;
+    text-align: center;
+}
+
+
+.activeService {
+    color: #B42B22 !important;
+}
+
+.activeService:before {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.forminator-ui#forminator-module-133.forminator-design--default .forminator-error-message {
+    background-color: transparent !important;
+    padding: 0px;
+}
+
+.ori-service-details-widget .quote-widget input, .ori-service-details-widget .quote-widget textarea {
+    color: #fff;
+}
+
+.forminator-description {
+    display: none !important;
+}
+
+.ori-service-details-widget .quote-widget input, .ori-service-details-widget .quote-widget textarea {
+    margin-bottom: 15px !important;
+}
+
+.forminator-ui#forminator-module-133.forminator-design--default .forminator-button-submit, .forminator-ui#forminator-module-167.forminator-design--default .forminator-button-submit {
+    z-index: 1;
+    color: #fff;
+    display: block;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    padding: 27px 40px;
+    position: relative;
+    border-radius: 40px;
+    letter-spacing: 0.14em;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.homepageLogo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.ori-service-why-choose-text a:hover {
+    color: #B42B22;
+}
+
+.ori-service-why-choose-text a {
+    cursor: pointer;
+}
+
+.ori-service-why-choose:nth-child(2n+0) .row {
+    flex-direction: row-reverse;
+}
+
+.projectGalleryImages img {
+    max-height: 400px;
+    margin-bottom: 25px;
+    object-fit: cover;
+}
+
+.projectGalleryImages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ori-project-img img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 400px;
+}
+
+.homepageLatestProjectsImage img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.ori-blog-widget .recent-post-widget .ori-recent-post-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.projectTitle {
+    width: 100%;
+    display: inline !important;
+    background-position-y: -1px;
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    background-image: linear-gradient(transparent calc(100% - 2px), currentColor 1px);
+    -webkit-transition: 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.projectTitle:hover {
+    background-size: 100% 100%;
+}
+
+@media (max-width:991px) {
+
+.ori-achivement-history-item-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.ori-achivement-history-item {
+    max-width: none;
+}
+
+.ori-achivement-history-item .achive-year {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    left: 0;
+    right: auto;
+}
+
+.ori-achivement-history-item .achivement-text {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.ori-achivement-history-item-wrapper .ori-achivement-history-item-area:nth-child(even) .ori-achivement-history-item {
+    float: none;
+}
+
+.ori-achivement-history-item-wrapper .ori-achivement-history-item-area:nth-child(even) .ori-achivement-history-item .achive-year {
+    left: 0;
+}
+
+.ori-achivement-history-item-wrapper::before {
+    left: 20px;
+    right: auto;
+    top: -35px;
+    width: 1px;
+    content: "";
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    border-style: outset;
+    border-width: 1px;
+    width: 1px;
+}
+}
+
+.ori-main-navigation-area .dropdown:after {
+    top: 9px;
+}
