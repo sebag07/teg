@@ -30,7 +30,7 @@
 					<div class="col-lg-6">
 						<div class="ori-contact-form-text-info pera-content">
 							<h3>Contactează-ne</h3>
-							<p>Curabitur vitae nunc sed velit dignissim sodales. Urna neque viverra justo nec. In cursus massa tincidunt ut ornare the butter leo integer.</p>
+							<p>Ne face plăcere să auzim de la tine! Fie că ai o întrebare, o sugestie sau dorești să discuți despre oportunitățile de colaborare, echipa noastră este gata să te asiste. Completează formularul de aici, trimite-ne un email direct la adresa noastră de contact sau apelează-ne direct. Încercăm să îți răspundem cât de repede posibil.</p>
 							<div class="ori-contact-form-item-info">
 								<div class="ori-contact-info d-flex align-items-center">
 									<div class="info-icon d-flex align-items-center justify-content-center">
