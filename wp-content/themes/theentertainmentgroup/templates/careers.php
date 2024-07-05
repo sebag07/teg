@@ -34,7 +34,7 @@
 							<div class="ori-inner-section-title">
 								<span class="sub-title text-uppercase">TEG</span>
 								<h2>Careers</h2>
-								<p>Rorem ipsum dolor sit ametconsectetur adipiscing elit,tempor Rorem ipsum dolor sit ametconsectetur adipiscing elit, sed do eiusmod temporRorem ipsum dolor</p>
+								<p>La [Numele Companiei], suntem mereu în căutarea de talente pasionate și dedicate pentru a ne extinde echipa. Dacă ești în căutarea unei oportunități de a-ți dezvolta cariera într-un mediu dinamic și inovativ, ești în locul potrivit. Scrie-ne pentru mai multe înformații.</p>
 							</div>
 							<div class="ori-btn-1 text-uppercase">
 								<a href="/contact">GET IN TOUCH</a>
