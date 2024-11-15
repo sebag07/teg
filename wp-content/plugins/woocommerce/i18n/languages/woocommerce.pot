@@ -10332,7 +10332,7 @@ msgstr ""
 #: assets/client/admin/chunks/analytics-report-products.js:1
 #: assets/client/admin/chunks/analytics-report-stock.js:1
 #: assets/client/admin/chunks/analytics-report-variations.js:1
-#: assets/client/blocks/product-filter.js:1
+#: assets/client/blocks/products-filter.js:1
 #: assets/client/blocks/product-filters.js:1
 msgid "Status"
 msgstr ""
@@ -10723,7 +10723,7 @@ msgstr ""
 #: assets/client/blocks/active-filters-frontend.js:5
 #: assets/client/blocks/active-filters-wrapper-frontend.js:5
 #: assets/client/blocks/active-filters.js:5
-#: assets/client/blocks/product-filter.js:1
+#: assets/client/blocks/products-filter.js:1
 #: assets/client/blocks/product-filters.js:1
 msgid "Rating"
 msgstr ""
@@ -13537,7 +13537,7 @@ msgstr ""
 #: assets/client/blocks/active-filters-wrapper-frontend.js:5
 #: assets/client/blocks/active-filters.js:5
 #: assets/client/blocks/mini-cart.js:1
-#: assets/client/blocks/product-filter.js:1
+#: assets/client/blocks/products-filter.js:1
 #: assets/client/blocks/product-filters.js:1
 msgid "Price"
 msgstr ""
@@ -16319,7 +16319,7 @@ msgstr ""
 #: patterns/filters.php:15
 #: assets/client/blocks/active-filters.js:6
 #: assets/client/blocks/filter-wrapper.js:1
-#: assets/client/blocks/product-filter.js:1
+#: assets/client/blocks/products-filter.js:1
 msgid "Active filters"
 msgstr ""
 
@@ -30782,7 +30782,7 @@ msgstr ""
 #: src/Blocks/BlockTypes/ProductFilterAttribute.php:423
 #: assets/client/admin/product-editor/index.js:2
 #: assets/client/blocks/product-filter-attribute.js:2
-#: assets/client/blocks/product-filter.js:4
+#: assets/client/blocks/products-filter.js:4
 msgid "Attribute"
 msgstr ""
 
@@ -53844,7 +53844,7 @@ msgid "Active Filters"
 msgstr ""
 
 #: assets/client/blocks/filter-wrapper.js:1
-#: assets/client/blocks/product-filter.js:1
+#: assets/client/blocks/products-filter.js:1
 msgid "Display the currently active filters."
 msgstr ""
 
@@ -54844,56 +54844,56 @@ msgstr ""
 msgid "Your store doesn't have any products with ratings yet. This filter option will display when a product receives a review."
 msgstr ""
 
-#: assets/client/blocks/product-filter.js:1
+#: assets/client/blocks/products-filter.js:1
 msgid "The widget area containing Collection Filters block needs to be placed on a product archive page for filters to function properly."
 msgstr ""
 
-#: assets/client/blocks/product-filter.js:1
+#: assets/client/blocks/products-filter.js:1
 msgid "When added to a post or page, Collection Filters block needs to be nested inside a Product Collection block to function properly."
 msgstr ""
 
-#: assets/client/blocks/product-filter.js:1
+#: assets/client/blocks/products-filter.js:1
 msgid "Active (Experimental)"
 msgstr ""
 
-#: assets/client/blocks/product-filter.js:1
+#: assets/client/blocks/products-filter.js:1
 msgid "Price (Experimental)"
 msgstr ""
 
-#: assets/client/blocks/product-filter.js:1
+#: assets/client/blocks/products-filter.js:1
 msgid "Enable customers to filter the product collection by choosing a price range."
 msgstr ""
 
-#: assets/client/blocks/product-filter.js:1
+#: assets/client/blocks/products-filter.js:1
 msgid "Status (Experimental)"
 msgstr ""
 
-#: assets/client/blocks/product-filter.js:1
+#: assets/client/blocks/products-filter.js:1
 msgid "Enable customers to filter the product collection by stock status."
 msgstr ""
 
-#: assets/client/blocks/product-filter.js:1
+#: assets/client/blocks/products-filter.js:1
 msgid "Rating (Experimental)"
 msgstr ""
 
-#: assets/client/blocks/product-filter.js:1
+#: assets/client/blocks/products-filter.js:1
 msgid "Enable customers to filter the product collection by rating."
 msgstr ""
 
 #. translators: %s is the attribute label.
-#: assets/client/blocks/product-filter.js:4
+#: assets/client/blocks/products-filter.js:4
 msgid "Enable customers to filter the product collection by selecting one or more %s attributes."
 msgstr ""
 
-#: assets/client/blocks/product-filter.js:4
+#: assets/client/blocks/products-filter.js:4
 msgid "Attribute (Experimental)"
 msgstr ""
 
-#: assets/client/blocks/product-filter.js:4
+#: assets/client/blocks/products-filter.js:4
 msgid "Enable customers to filter the product collection by selecting one or more attributes, such as color."
 msgstr ""
 
-#: assets/client/blocks/product-filter.js:4
+#: assets/client/blocks/products-filter.js:4
 msgid "Header"
 msgstr ""
 

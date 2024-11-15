@@ -43,3 +43,10 @@ function get_menu_with_children($menu_name){
 
     return $navbar_items;
     }
+
+add_action('after_setup_theme', function() {
+    add_theme_support('woocommerce');
+});
+
+// In functions.php
+require_once get_template_directory() . '/inc/woocommerce-customizations.php';

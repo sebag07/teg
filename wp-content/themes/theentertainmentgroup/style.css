@@ -308,3 +308,42 @@ a.disabled {
 .ori-main-navigation-area .dropdown:after {
     top: 9px;
 }
+
+/* Shop Feed Post */
+
+.shop-img {
+    display: flex;
+    height: 250px;
+    flex-direction: row;
+}
+
+.shop-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.ori-shop-inner-item .add-cart-btn a {
+    padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .ori-shop-inner-item {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+.ori-shop-sidebar-widget .tag-widget li a.category-filter.active {
+    font-weight: bold;
+    color: #fff;
+    /* Add any other active state styles */
+}
+
+.ori-shop-sidebar-widget .category-widget li a.category-filter.active {
+    color: var(--base-color-1);
+}
+
+.ori-shop-sidebar-widget .category-widget li a:hover {
+    color: var(--base-color-1);
+}
