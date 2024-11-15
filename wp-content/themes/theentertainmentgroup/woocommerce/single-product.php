@@ -106,7 +106,7 @@ if (!is_a($product, 'WC_Product')) {
                             </div>
                             <div class="ori-shop-quantity-btn d-flex align-items-center">
                                 <div class="add-cart-btn text-uppercase">
-                                    <a href="<?php echo home_url('/cerere-oferta/') . '?wpf538_10=' . $product->get_id(); ?>">Cere ofertă</a>
+                                    <a href="<?php echo home_url('/cerere-oferta/') . '?wpf536_4=' . $product->get_id(); ?>">Cere ofertă</a>
                                 </div>
                             </div>
                             <div class="ori-code-category ul-li-block">
