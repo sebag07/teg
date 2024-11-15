@@ -921,7 +921,6 @@ select:visited {
 .ori-main-navigation li a {
   color: #fff;
   font-size: 14px;
-  padding-bottom: 40px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
 }
@@ -8355,14 +8354,14 @@ select:visited {
 }
 
 .ori-shop-details-slide-nav {
-  max-width: 430px;
+  /*max-width: 430px;*/
 }
 .ori-shop-details-slide-nav .nav-inner-img {
   cursor: pointer;
 }
 
 .ori-shop-details-text-wrapper {
-  padding-top: 50px;
+  /*padding-top: 50px;*/
 }
 .ori-shop-details-text-wrapper .ori-shop-details-title {
   margin-bottom: 50px;

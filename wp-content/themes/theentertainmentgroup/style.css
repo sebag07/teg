@@ -61,9 +61,9 @@ body span {
 /* Header */
 
 .ori-header-content .brand-logo img {
-    max-width: 150px;
+    max-width: 120px;
     width: 100%;
-    heigth: auto;
+    height: auto;
 }
 
 /* Footer */
@@ -346,4 +346,8 @@ a.disabled {
 
 .ori-shop-sidebar-widget .category-widget li a:hover {
     color: var(--base-color-1);
+}
+
+.ori-shop-details-slide-nav.slick-slider .slick-slide {
+    margin-right: 20px;
 }
