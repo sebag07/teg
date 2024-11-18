@@ -121,7 +121,7 @@
         <div class="container">
             <div class="ori-service-top-content-1 d-flex justify-content-between align-items-center">
                 <div class="ori-section-title-1 text-uppercase wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <h2>TEG <span> Servicii</span></h2>
+                    <h2>Ce oferim? <span> Servicii</span></h2>
                 </div>
 <!--                <div class="ori-btn-1 text-uppercase wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">-->
 <!--                    <a href="service.html">Toate serviciile</a>-->
