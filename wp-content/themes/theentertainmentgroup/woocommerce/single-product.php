@@ -103,6 +103,7 @@ if (!is_a($product, 'WC_Product')) {
                             </div>
                             <div class="ori-shop-details-desc">
                                 <?php echo $product->get_short_description(); ?>
+                                <?php echo $product->get_description(); ?>
                             </div>
                             <div class="ori-shop-quantity-btn d-flex align-items-center">
                                 <div class="add-cart-btn text-uppercase">
