@@ -191,30 +191,30 @@ function import_products_from_html() {
 }
 
 add_action('init', function() {
-//    import_products_from_html();
+    import_products_from_html();
 }, 20); // Priority 20 to ensure WooCommerce has loaded
 
-function delete_all_products() {
-    // Get all products
-    $args = [
-        'post_type'      => 'product',
-        'post_status'    => 'any',
-        'posts_per_page' => -1, // Retrieve all products
-    ];
-
-    $products = get_posts($args);
-
-    if (!empty($products)) {
-        foreach ($products as $product) {
-            // Delete the product
-            wp_delete_post($product->ID, true); // true = force delete (bypass trash)
-            echo "Deleted product ID: " . $product->ID . "\n";
-        }
-        echo 'All products have been deleted.';
-    } else {
-        echo 'No products found to delete.';
-    }
-}
-add_action('init', 'delete_all_products');
+//function delete_all_products() {
+//    // Get all products
+//    $args = [
+//        'post_type'      => 'product',
+//        'post_status'    => 'any',
+//        'posts_per_page' => -1, // Retrieve all products
+//    ];
+//
+//    $products = get_posts($args);
+//
+//    if (!empty($products)) {
+//        foreach ($products as $product) {
+//            // Delete the product
+//            wp_delete_post($product->ID, true); // true = force delete (bypass trash)
+//            echo "Deleted product ID: " . $product->ID . "\n";
+//        }
+//        echo 'All products have been deleted.';
+//    } else {
+//        echo 'No products found to delete.';
+//    }
+//}
+//add_action('init', 'delete_all_products');
 
 
