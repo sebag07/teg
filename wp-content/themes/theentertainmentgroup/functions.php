@@ -124,7 +124,7 @@ function import_products_from_html() {
             $image_src = $image_node ? $image_node->getAttribute('src') : '';
             if ($image_src) {
                 // Replace width and height parameters
-                $image_src = preg_replace('/\bw\d+-h\d+/', '', $image_src);
+                $image_src = preg_replace('/\b=w\d+-h\d+/', '', $image_src);
             }
 
             // Replace "<br>" and "<br><br>" in name
@@ -191,7 +191,7 @@ function import_products_from_html() {
 }
 
 add_action('init', function() {
-//    import_products_from_html();
+    import_products_from_html();
 }, 20); // Priority 20 to ensure WooCommerce has loaded
 
 //function delete_all_products() {
