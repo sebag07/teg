@@ -191,7 +191,7 @@ function import_products_from_html() {
 }
 
 add_action('init', function() {
-    import_products_from_html();
+//    import_products_from_html();
 }, 20); // Priority 20 to ensure WooCommerce has loaded
 
 //function delete_all_products() {
