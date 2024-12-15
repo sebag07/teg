@@ -196,7 +196,7 @@ a.disabled {
     object-fit: cover;
 }
 
-.ori-service-why-choose-text a:hover {
+.ori-service-why-choose-text .ori-inner-section-title a:hover {
     color: #B42B22;
 }
 
