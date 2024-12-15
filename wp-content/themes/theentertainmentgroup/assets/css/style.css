@@ -6656,11 +6656,14 @@ select:visited {
 .ori-service-why-choose-text .ori-service-why-choose-list-item {
   padding-top: 40px;
 }
+.ori-service-why-choose-text .ori-service-why-choose-list-item.ul-li-block p {
+  padding-bottom: 15px;
+}
 .ori-service-why-choose-text .ori-service-why-choose-list-item ul li {
   font-size: 24px;
   font-weight: 700;
   padding-left: 45px;
-  padding-bottom: 38px;
+  padding-bottom: 25px;
   position: relative;
 }
 .ori-service-why-choose-text .ori-service-why-choose-list-item ul li:before {
@@ -6682,9 +6685,9 @@ select:visited {
   position: absolute;
   background-color: var(--base-color-1);
 }
-.ori-service-why-choose-text .ori-service-why-choose-list-item ul li:last-child {
-  padding-bottom: 0;
-}
+/*.ori-service-why-choose-text .ori-service-why-choose-list-item ul li:last-child {*/
+/*  padding-bottom: 0;*/
+/*}*/
 .ori-service-why-choose-text .ori-service-why-choose-list-item ul li:last-child:after {
   display: none;
 }

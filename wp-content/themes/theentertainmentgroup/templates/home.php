@@ -164,13 +164,14 @@
                                         <div class="col-lg-6">
                                             <div class="ori-service-why-choose-text">
                                                 <div class="ori-inner-section-title">
-                                                    <h2><a href="<?php echo $serviceURL; ?>"><?php the_title() ?></a>
+                                                    <h2>
+                                                        <a href="<?php echo $serviceURL; ?>"><?php the_title() ?></a>
                                                     </h2>
                                                 </div>
                                                 <div class="ori-service-why-choose-list-item ul-li-block">
                                                     <?php echo $serviceContent ?>
                                                 </div>
-                                                <div class="ori-btn-1 text-uppercase wow fadeInUp mt-5" data-wow-delay="400ms" data-wow-duration="1500ms">
+                                                <div class="ori-btn-1 text-uppercase wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                                                     <a href="<?php echo $serviceURL; ?>">Descoperă <?php the_title() ?></a>
                                                 </div>
                                             </div>
